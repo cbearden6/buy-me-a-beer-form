@@ -1,0 +1,205 @@
+/* Styles for my form */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+/* I WILL BE ADDING PADDING TO THE BODY FOR DEMONSTRATION PURPOSES ONLY. REMOVE THIS WHEN YOU START WORKING ON YOUR HW ASSIGNMENT!!! */
+
+
+/* website styles */
+
+#wrapper {
+width: 940px;
+margin: 0 auto;
+}
+
+header {
+	background-image: url('../images/header.jpg');
+	text-align: center;
+	width: 100%;
+	height: auto;
+	background-attachment: fixed;
+	overflow: hidden;
+	border-radius: 0 0 85% 85% / 30%;
+}
+
+#hot {
+    margin-bottom: 50px;
+}
+
+#hot a {
+    text-decoration: none;
+    color: black;
+}
+
+header h1 {
+	font-family: 'Permanent Marker', serif;
+	font-size: 80px;
+	margin-bottom: 30px;
+}
+
+/* nav {
+height: 50px;
+background: darkseagreen;
+} */
+
+main {
+    width: 580px;
+    float: left;
+}
+
+aside {
+    margin-top: 30px;
+    width: 340px;
+    float: right;
+    padding: 10px;
+    /* position: fixed; */
+}
+
+footer {
+    border-top: 1px solid #666;
+    height: 50px;
+    line-height: 50px;
+    font-size: .875em;
+    clear: both;
+}
+
+footer a {
+    color: #666;
+}
+
+footer ul {
+    list-style-type: none;
+    float: right;
+}
+
+footer li {
+float: left;
+margin-left: 30px;
+color: #666;
+}
+
+
+
+/* form styles */
+
+fieldset {
+    padding: 10px;
+}
+
+legend {
+    font-size: 1.3em;
+    font-style: italic;
+    padding: 0 4px;
+    color: #b78c01;
+}
+
+form {
+    max-width: 580px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    height: 25px;
+    margin-bottom: 10px;
+}
+
+input[type=radio],
+input[type=checkbox] {
+    width: auto;
+    height: auto;
+    margin-right: 5px;
+}
+
+input[type=submit] {
+    width: auto;
+    padding: 0 1.5em;
+    border-radius: 2em;
+    background-color: #fec50b;
+    transition: all .2s;
+}
+
+input[type=submit]:hover {
+    background-color: #f4bb01;
+}
+
+textarea {
+    width: 100%;
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+select {
+    margin-bottom: 10px;
+}
+
+form ul {
+    margin-left: 10px;
+    margin-bottom:10px;
+}
+
+form li {
+    list-style-type: none;
+}
+
+.beer {
+    float: right;
+    margin: 10px 0 25px 15px;
+}
+
+.gallery {
+    clear: both;
+    /* margin-bottom: 25px; */
+}
+
+/* Typography */
+
+h2, h3, h4 {
+    margin-bottom: 8px;
+    font-family: times, serif;
+    line-height: 1.1;
+ }
+
+ main h2,
+ main h1 {
+     margin-left: 10px;
+ }
+
+ h3 {
+    font-size: 1.728em;
+    font-weight: 200;
+}
+
+h4 {
+   font-size: 1.44em; 
+   font-weight: 200;
+}
+
+div p {
+    margin: 20px 0 0 10px;
+    line-height: 1.4;
+}
+
+aside p {
+    font-size: .9em;
+    margin: 10px 0 20px 0;
+}
+
+figcaption {
+    margin-bottom: 4px;
+}
+
+div h2 {
+    font-weight: 300;
+}
+
+
